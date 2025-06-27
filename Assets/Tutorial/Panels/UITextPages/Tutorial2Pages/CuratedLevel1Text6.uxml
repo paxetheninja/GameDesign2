@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+
+        <ui:Template name="Template3" src="project://database/Assets/Tutorial/Template3.uxml?fileID=9197481963319205126&amp;guid=6a6f675500c220e4b8dafcb38b7165c8&amp;type=3#Template3"  />
+    <ui:Instance template="Template3" name="Template3" style="overflow: visible; position: relative; height: 100%; width: 100%;" >
+        <AttributeOverrides element-name="TutorialText" text="Now lets make some handles. For this you will need another kneaded clay. Place the kneaded clay on the table and then interact to make three handles." />
+      </ui:Instance>
+</ui:UXML>

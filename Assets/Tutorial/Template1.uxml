@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="left: 0; top: 5%; right: initial; bottom: initial; width: 50%; height: 40%; align-items: flex-start; flex-direction: row;">
+        <ui:VisualElement name="Image" style="background-image: url(&apos;project://database/Assets/Tutorial/Exekias6.svg?fileID=6192944022281365145&amp;guid=f69de971fdcaec340b684ac167270f7a&amp;type=3#Exekias6&apos;); width: 30%; height: 100%; transform-origin: center; rotate: 35deg; left: -10%; align-items: center; flex-direction: row-reverse;" />
+        <ui:VisualElement name="TextBackground" style="background-color: rgba(238, 0, 255, 0.18); flex-direction: column-reverse; align-items: center; justify-content: center; left: -5%; right: auto; width: 80%; height: 90%; top: 5%; bottom: auto; transform-origin: center; border-top-left-radius: 10%; border-bottom-left-radius: 10%; border-top-right-radius: 10%; border-bottom-right-radius: 10%;">
+            <ui:Label text="Text Missing" display-tooltip-when-elided="true" enable-rich-text="true" name="TutorialText" style="height: 80%; width: 80%; -unity-text-align: middle-center; white-space: normal; left: 0; background-color: rgba(0, 0, 0, 0); font-size: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

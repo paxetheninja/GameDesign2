@@ -1,0 +1,7 @@
+#Normal > #Label {
+    font-size: 30;
+}
+ 
+#Small > #Label {
+    font-size: 20;
+}

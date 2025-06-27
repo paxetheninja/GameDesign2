@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Template1" src="project://database/Assets/Tutorial/Template1.uxml?fileID=9197481963319205126&amp;guid=1479b83e9719576418ac8a234e9ae53e&amp;type=3#Template1" />
+    <ui:Instance template="Template1" name="Template1" style="width: 100%; height: 100%;"  >
+        <AttributeOverrides element-name="TutorialText" text="Now take two from those in the hand." />
+      </ui:Instance>
+</ui:UXML>

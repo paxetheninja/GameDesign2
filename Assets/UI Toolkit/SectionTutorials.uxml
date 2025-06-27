@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="SectionTutorials" style="height: 100%; flex-direction: row; margin-left: 0.5%; margin-right: 0.5%; margin-top: 0.5%; margin-bottom: 0.5%;">
+        <ui:Button text="Tutorial I" display-tooltip-when-elided="true" class="ButtonTutorial" />
+        <ui:Button text="Tutorial II" display-tooltip-when-elided="true" class="ButtonTutorial" />
+        <ui:Button text="Tutorial III" display-tooltip-when-elided="true" class="ButtonTutorial" />
+    </ui:VisualElement>
+</ui:UXML>

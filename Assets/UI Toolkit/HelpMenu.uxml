@@ -1,0 +1,84 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="AreaHeadline" class="Background30" style="height: 15%; flex-direction: row;">
+        <ui:VisualElement name="AreaLeft" style="width: 40%; padding-left: 30px; align-items: center; justify-content: flex-start; flex-direction: row;">
+            <ui:Button text="score credits" display-tooltip-when-elided="true" name="ButtonCredits" class="HelpButton Font" style="display: flex; width: 50%;" />
+            <ui:Button text="recipies" display-tooltip-when-elided="true" name="ButtonRecipies" class="HelpButton Font" style="display: none; width: 50%;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="ButtonExit" class="HelpButton Font" style="width: 35%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaCenter" style="width: 33%; justify-content: space-around; flex-basis: 20%;">
+            <ui:Label text="RECIPIES" display-tooltip-when-elided="true" name="LabelTitleRecipies" class="Font" style="-unity-text-align: upper-center; font-size: 100%; color: rgb(40, 48, 64); display: flex;" />
+            <ui:Label text="score  credits" display-tooltip-when-elided="true" name="LabelTitleScore" class="Font" style="-unity-text-align: upper-center; font-size: 100%; color: rgb(40, 48, 64); display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaRight" style="width: 40%; align-items: center; justify-content: flex-start; padding-right: 30px; flex-direction: row-reverse;">
+            <ui:Button text="BACK TO GAME" display-tooltip-when-elided="true" name="ButtonCloseHelp" class="HelpButton Font" style="width: 50%;" />
+            <ui:Button text="CONTROLS" display-tooltip-when-elided="true" name="ButtonControls" class="HelpButton Font" style="width: 35%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaBody" style="height: 85%; display: flex;">
+        <ui:VisualElement name="AreaTabBar" style="flex-direction: row;">
+            <ui:Button text="Table  I" display-tooltip-when-elided="true" name="TabButtonTable1" class="ToggleButton ToggleButtonSelected Font" />
+            <ui:Button text="Table  II" display-tooltip-when-elided="true" name="TabButtonTable2" class="ToggleButton Font" />
+            <ui:Button text="potter&apos;s wheel" display-tooltip-when-elided="true" name="TabButtonPottersWheel" class="ToggleButton Font" />
+            <ui:Button text="grinding table" display-tooltip-when-elided="true" name="TabButtonGrindingTable" class="ToggleButton Font" />
+            <ui:Button text="painter&apos;s table" display-tooltip-when-elided="true" name="TabButtonPaintersTable" class="ToggleButton Font" />
+            <ui:Button text="oven" display-tooltip-when-elided="true" name="TabButtonOven" class="ToggleButton Font" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionTable1" style="flex-grow: 1; display: flex;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: row; flex-grow: 1; width: 2841px; align-items: stretch; justify-content: flex-start;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesTable1.png?fileID=2800000&amp;guid=5fb98a756b447a24eb3e1764ac8025ec&amp;type=3#RecipiesTable1&apos;); -unity-background-scale-mode: scale-to-fit; flex-grow: 1;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionTable2" style="flex-grow: 1; visibility: visible; display: none;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: column; flex-grow: 1; width: 3745px;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesTable2.png?fileID=2800000&amp;guid=38a70501610d18041ad162a20c01aa94&amp;type=3#RecipiesTable2&apos;); -unity-background-scale-mode: scale-to-fit; flex-grow: 1; align-items: flex-start; width: 100%;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionPottersWheel" style="flex-grow: 1; visibility: visible; display: none;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: row; flex-grow: 1; width: 1920px; justify-content: flex-start;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesPottersWheel.png?fileID=2800000&amp;guid=b7790048a412cc0468065b6a6f1e6708&amp;type=3#RecipiesPottersWheel&apos;); -unity-background-scale-mode: scale-to-fit; width: 100%;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionGrindingTable" style="flex-grow: 1; visibility: visible; display: none;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: column; flex-grow: 1; width: 1920px;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesGrindingTable.png?fileID=2800000&amp;guid=c05268d7059d0144d9021e001cba74b3&amp;type=3#RecipiesGrindingTable&apos;); -unity-background-scale-mode: scale-to-fit; flex-grow: 1; width: 100%;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionPaintersTable" style="flex-grow: 1; visibility: visible; display: none;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: column; flex-grow: 1; width: 1920px;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesPaintersTable.png?fileID=2800000&amp;guid=c8d3e0a6dde63894a813ee0045398ace&amp;type=3#RecipiesPaintersTable&apos;); -unity-background-scale-mode: scale-to-fit; flex-grow: 1; align-items: flex-start; width: 100%; display: flex;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionOven" style="flex-grow: 1; visibility: visible; display: none;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" mode="Horizontal" vertical-scroller-visibility="Hidden" style="flex-grow: 1;">
+                <ui:VisualElement name="AreaImages" class="Background60" style="height: 100%; flex-direction: row; flex-grow: 1; width: 1920px;">
+                    <ui:VisualElement name="ImageRecipe1" style="background-image: url(&apos;project://database/Assets/UIComponents/TutorialImages/RecipiesOven.png?fileID=2800000&amp;guid=6484a29b75decda4e9c0c43f83d45f85&amp;type=3#RecipiesOven&apos;); -unity-background-scale-mode: scale-to-fit; flex-grow: 1; align-items: flex-start; width: 100%;" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaScore" style="height: 85%; flex-direction: row; background-color: rgb(40, 48, 64); display: none;">
+        <ui:VisualElement name="SectionHighscore" style="width: 50%;">
+            <ui:Label text="Highscore" display-tooltip-when-elided="true" name="LabelHighscoreTitle" class="LabelCredits Font" />
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Label text="Mike:&#10;Peter:&#10;Ina:" display-tooltip-when-elided="true" name="LabelHighscoreNames" class="LabelCredits Font" style="-unity-text-align: upper-right; width: 60%; -unity-font-definition: initial; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Medium&apos;);" />
+                <ui:Label text="45600&#10;23434&#10;10003" display-tooltip-when-elided="true" name="LabelHighscorePoints" class="LabelCredits Font" style="-unity-text-align: upper-left; width: 40%; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Medium&apos;); -unity-font-definition: initial;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionCredits" style="display: flex;">
+            <ui:Label text="Credits" display-tooltip-when-elided="true" name="LabelCreditsTitle" class="LabelCredits Font" />
+            <ui:Label text="Aaron Giner&#10;Florian Wachter&#10;Gerhard Dorn&#10;Lukas Hofer&#10;&#10;" display-tooltip-when-elided="true" name="LabelCredits" class="LabelCredits Font" style="height: 35%;" />
+            <ui:Label text="Assets: &#10;- Joystick Pack&#10;- Modular Village Pack&#10;https://fertile-soil-productions.itch.io/modular-village-pack&#10;&#10;Sounds:&#10;- gridPickup/Place:&#10;https://pixabay.com/sound-effects/clickclack-6312/&#10;- gridRotate: &#10;https://pixabay.com/sound-effects/whoosh-6316/&#10;- doorOpen: &#10;https://pixabay.com/de/sound-effects/main-door-opening-closing-38280/" display-tooltip-when-elided="true" name="LabelAssets" class="LabelCredits Font" style="font-size: 27px; width: 100%; -unity-font-definition: initial; -unity-font: resource(&apos;FlatSkin/Font/Roboto-Medium&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4070712307408185726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4070712307408185720}
+  - component: {fileID: 4070712307408185727}
+  m_Layer: 0
+  m_Name: ComponentRecipeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &4070712307408185720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070712307408185726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4070712307408185727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070712307408185726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bcfc04107ff37d4e989fdb6040cc8d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clayPrefab: {fileID: 950533012007075768, guid: bc50ef0d5ca4803439b9e3c4cdcbe4a1,
+    type: 3}
+  wetClayPrefab: {fileID: 8911247899552911388, guid: bd9d5d4d21d92b9448c5eb04d05ba25c,
+    type: 3}
+  waterPrefab: {fileID: 4376733136017438842, guid: 690c42650bc72b443a120dc4161fa7d7,
+    type: 3}
+  kneadedClayPrefab: {fileID: 835057692386548825, guid: 70408bbdfacfdd344819231838de2ddd,
+    type: 3}
+  kneadedClay2Prefab: {fileID: 835057692386548825, guid: 4e5962e8d50bbe34e876720cba6bd9fd,
+    type: 3}
+  kneadedClay3Prefab: {fileID: 835057692386548825, guid: f5ca7c0ab4909364babc2ee84d93d051,
+    type: 3}
+  plateRawPrefab: {fileID: 3819682109753228364, guid: b5f6bab81ec84ae4d976f8a666f637f7,
+    type: 3}
+  plateBakedPrefab: {fileID: 7657718710947325657, guid: 221aaaf0be77a7b4381f45d89d4a72ce,
+    type: 3}
+  plateRawRedPrefab: {fileID: 3819682109753228364, guid: bdb2c3665e2728f4795dd161defba882,
+    type: 3}
+  plateBakedRedPrefab: {fileID: 7657718710947325657, guid: f8dcc16b0c303cb4e869a070b824f9bd,
+    type: 3}
+  plateRawBlackPrefab: {fileID: 3819682109753228364, guid: 32d3838375df5c34f88c1e259c50c058,
+    type: 3}
+  plateBakedBlackPrefab: {fileID: 7657718710947325657, guid: 4508ad7f4e82dfd44bb2ed9deeab4484,
+    type: 3}
+  plate1HandleRawPrefab: {fileID: 3819682109753228364, guid: e9eb99cd85cad754896bb7abee1d528e,
+    type: 3}
+  plate1HandleBakedPrefab: {fileID: 3819682109753228364, guid: 83788dc103f60cb41b9cf5a20d273184,
+    type: 3}
+  plate1HandleRawRedPrefab: {fileID: 3819682109753228364, guid: fdb83d2ee0a815546865530673b705a1,
+    type: 3}
+  plate1HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 6443519229c2acb4e8579d6637750dfa,
+    type: 3}
+  plate1HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: a11ef0ebe8c22a943a19082c67a22ecb,
+    type: 3}
+  plate1HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: b4566e41193739142895523129b659d7,
+    type: 3}
+  plate2HandleRawPrefab: {fileID: 3819682109753228364, guid: 16b483cdb4ad708478137c37db4d910a,
+    type: 3}
+  plate2HandleBakedPrefab: {fileID: 3819682109753228364, guid: 4a64d24db24b15a4ebe8a27a4e9c0723,
+    type: 3}
+  plate2HandleRawRedPrefab: {fileID: 3819682109753228364, guid: ed94fa51b43166149adaed0dd97a851f,
+    type: 3}
+  plate2HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 8e91597a8f8ff2a46afa5efec09db929,
+    type: 3}
+  plate2HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: 18b6d56a70e12f74f9d851d55a576a45,
+    type: 3}
+  plate2HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: 06b343b202592cc4d8b6c2b07b939b7c,
+    type: 3}
+  mediumVaseRawPrefab: {fileID: 3819682109753228364, guid: bea134a209ae3aa4c97ce42633a9b7bd,
+    type: 3}
+  mediumVaseRawBlackPrefab: {fileID: 3819682109753228364, guid: 83917567ae4a4d34eab9edce2fa352b1,
+    type: 3}
+  mediumVaseRawRedPrefab: {fileID: 3819682109753228364, guid: 174f49ca6bbbd174abec407f573c1a66,
+    type: 3}
+  mediumVaseBakedPrefab: {fileID: 3819682109753228364, guid: b2ad0888fdf936f478e2487f10ac2a15,
+    type: 3}
+  mediumVaseBakedBlackPrefab: {fileID: 3819682109753228364, guid: d2462f5cc80e53e449660fec66a183a3,
+    type: 3}
+  mediumVaseBakedRedPrefab: {fileID: 3819682109753228364, guid: 056a54703c9942e49a825e8b5172efd9,
+    type: 3}
+  mediumVase1HandleRawPrefab: {fileID: 3819682109753228364, guid: 5ae05c6b05ce3aa428e25e8e793e38c3,
+    type: 3}
+  mediumVase1HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: d1c06e6602195b044a820b56bf4429ff,
+    type: 3}
+  mediumVase1HandleRawRedPrefab: {fileID: 3819682109753228364, guid: 9cceb70e38d5ff94088d263b957b2e75,
+    type: 3}
+  mediumVase1HandleBakedPrefab: {fileID: 3819682109753228364, guid: c84ac3d3bc45ad34795d6ef835d73de6,
+    type: 3}
+  mediumVase1HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: eb145824ccc3c924bb6a4a01b0076883,
+    type: 3}
+  mediumVase1HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 4a69575a95610004b94132e4ff81f870,
+    type: 3}
+  mediumVase2HandleRawPrefab: {fileID: 3819682109753228364, guid: ad17eb211b5dedf44b740c64c1c4ebf9,
+    type: 3}
+  mediumVase2HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: c4f733e2cfe4a1b4ea29624bc0bbbdd7,
+    type: 3}
+  mediumVase2HandleRawRedPrefab: {fileID: 3819682109753228364, guid: 9a5bf5d46461ef54c9bf5b98c60ea414,
+    type: 3}
+  mediumVase2HandleBakedPrefab: {fileID: 3819682109753228364, guid: c2873f08b1d90834abf872206d95e360,
+    type: 3}
+  mediumVase2HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: 302505d867fa45f43b6fd6e2d981be85,
+    type: 3}
+  mediumVase2HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 217d8a0156484334da76b0ed7fb79ffc,
+    type: 3}
+  mediumVase3HandleRawPrefab: {fileID: 3819682109753228364, guid: d106087262077e24e9d630e08ccd89d1,
+    type: 3}
+  mediumVase3HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: 059c2eee61785604f96f0ee9fc9eaafb,
+    type: 3}
+  mediumVase3HandleRawRedPrefab: {fileID: 3819682109753228364, guid: 1df24a3d58f0e4045b76b271feeed9c1,
+    type: 3}
+  mediumVase3HandleBakedPrefab: {fileID: 3819682109753228364, guid: 138ffd0ec72b8d749ae10270473ce0b4,
+    type: 3}
+  mediumVase3HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: 2cb911efc6964b34aaceac2863894d15,
+    type: 3}
+  mediumVase3HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 2c40d4dfff475714c85fa6d57a2c8564,
+    type: 3}
+  bigVaseRawPrefab: {fileID: 3819682109753228364, guid: d3caf1fd9ef36414a845268b27854c84,
+    type: 3}
+  bigVaseRawBlackPrefab: {fileID: 3819682109753228364, guid: 0ae041f3fe473e84db83eedb3f60ca0a,
+    type: 3}
+  bigVaseRawRedPrefab: {fileID: 3819682109753228364, guid: 7290710b2324ed248a242b8d8091500a,
+    type: 3}
+  bigVaseBakedPrefab: {fileID: 3819682109753228364, guid: 194c0daf27595c844b4d54293bd6778a,
+    type: 3}
+  bigVaseBakedBlackPrefab: {fileID: 3819682109753228364, guid: 7bf1480e95ef4d64e86c589526977b6f,
+    type: 3}
+  bigVaseBakedRedPrefab: {fileID: 3819682109753228364, guid: 5ae405a7fe27de54b9853cb4e53729de,
+    type: 3}
+  bigVase1HandleRawPrefab: {fileID: 3819682109753228364, guid: 89d6cfd69cb512f49b3637cd6d716e81,
+    type: 3}
+  bigVase1HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: 426bfb7b14ae83d4fa3423ba087c991d,
+    type: 3}
+  bigVase1HandleRawRedPrefab: {fileID: 3819682109753228364, guid: c4878071f6eaee142a3c1a1eb9a42cb2,
+    type: 3}
+  bigVase1HandleBakedPrefab: {fileID: 3819682109753228364, guid: 8dc4775b0945a3c408e855009469384a,
+    type: 3}
+  bigVase1HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: 8ac7f1ab0e3599e47a092dbcc4b91c5a,
+    type: 3}
+  bigVase1HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 25658ff85c19a8047b713359a546ec2a,
+    type: 3}
+  bigVase2HandleRawPrefab: {fileID: 3819682109753228364, guid: 370868bf8fd7516449a17d8b1b7cf103,
+    type: 3}
+  bigVase2HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: e9bb6169e0ac2e84094b513a59d4c76a,
+    type: 3}
+  bigVase2HandleRawRedPrefab: {fileID: 3819682109753228364, guid: e7840bd4ef6f72d4991c8695dca29553,
+    type: 3}
+  bigVase2HandleBakedPrefab: {fileID: 3819682109753228364, guid: 5be2f59be83cbb14fbc73af62da3a191,
+    type: 3}
+  bigVase2HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: 3fa1575e8fe4cca4ca3cfdc5623244d8,
+    type: 3}
+  bigVase2HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 9945f8eff185fc34395bbc36267af71e,
+    type: 3}
+  bigVase3HandleRawPrefab: {fileID: 3819682109753228364, guid: 2bd4e3928343e824b90876606d9d8ec3,
+    type: 3}
+  bigVase3HandleRawBlackPrefab: {fileID: 3819682109753228364, guid: 3873b3de96739a64f9e1970571100db0,
+    type: 3}
+  bigVase3HandleRawRedPrefab: {fileID: 3819682109753228364, guid: 34f9ba58b0334a740b3d598ed405b602,
+    type: 3}
+  bigVase3HandleBakedPrefab: {fileID: 3819682109753228364, guid: dd3776defb461ef44963fbe06b01cc3c,
+    type: 3}
+  bigVase3HandleBakedBlackPrefab: {fileID: 3819682109753228364, guid: c5d75c4090f4d424d92f4265b99d4a20,
+    type: 3}
+  bigVase3HandleBakedRedPrefab: {fileID: 3819682109753228364, guid: 9e55003c03d5eca418f057cd2a2bab27,
+    type: 3}
+  handle3Prefab: {fileID: 835057692386548825, guid: 054a2f60885e6074e8c52a55c9755d0f,
+    type: 3}
+  handle2Prefab: {fileID: 835057692386548825, guid: 0c489a9041a720949880c8e846eef836,
+    type: 3}
+  handle1Prefab: {fileID: 835057692386548825, guid: 4a67e2245a986d54c9e3cca7cb9aafae,
+    type: 3}
+  claySlipPrefab: {fileID: 4376733136017438842, guid: 7ff70baaf89c7ce40846e92ae4ff1aea,
+    type: 3}
+  redSlipPrefab: {fileID: 4376733136017438842, guid: 328dc25ae1eff7748b67756ed613499c,
+    type: 3}
+  blackSlipPrefab: {fileID: 4376733136017438842, guid: e4300684f20c8b44087f52009d1da69a,
+    type: 3}
+  redRocksPrefab: {fileID: 4376733136017438842, guid: 319dc07944eebd344b26c5b20ed77642,
+    type: 3}
+  redRocksGravelPrefab: {fileID: 4376733136017438842, guid: 60f1cb25155227643935f4972bdb29e7,
+    type: 3}
+  blackRocksPrefab: {fileID: 4376733136017438842, guid: ab9c324daf343304f913814cd27c5243,
+    type: 3}
+  blackRocksGravelPrefab: {fileID: 4376733136017438842, guid: 5e15bc494abc10b4ca5a3013f3a4a929,
+    type: 3}

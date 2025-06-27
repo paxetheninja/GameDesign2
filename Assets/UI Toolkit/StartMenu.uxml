@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="AreaTitle" style="height: 20%; background-color: rgb(40, 48, 64);">
+        <ui:Label text="kerameikos" display-tooltip-when-elided="true" name="LabelTitle" class="LabelTitle" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaBody" style="height: 80%; background-color: rgb(249, 231, 210);">
+        <ui:VisualElement name="SectionInfotext" style="height: 6%;" />
+        <ui:VisualElement name="SectionPlayerName" style="height: 22%; align-items: center;">
+            <ui:TextField picking-mode="Ignore" label="Enter your name:  " value="filler text" text="Max" name="InputPlayerName" class="TextField unity-label" style="width: 85%; justify-content: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionTutorial" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Start Tutorial" display-tooltip-when-elided="true" name="ButtonStartTutorial" class="ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionStartHosting" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Start Hosting" display-tooltip-when-elided="true" name="ButtonStartHosting" class="ButtonLobby2 ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionJoinGame" style="height: 18%; flex-direction: row; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:VisualElement style="width: 50%; align-items: flex-end;">
+                <ui:TextField picking-mode="Ignore" label="Enter lobby ID:" value="filler text" name="InputHostID" usage-hints="DynamicTransform" class="TextField unity-label" style="width: 95%; justify-content: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 50%; height: 100%; align-items: center; justify-content: center;">
+                <ui:Button text="Join Game" display-tooltip-when-elided="true" name="ButtonJoinGame" class="ButtonLobby" style="width: 90%; margin-top: 2%; margin-bottom: 2%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionInfotext" style="height: 4%;" />
+    </ui:VisualElement>
+</ui:UXML>

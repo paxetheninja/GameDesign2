@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="AreaTitle" style="height: 20%; background-color: rgb(40, 48, 64);">
+        <ui:Label text="kerameikos" display-tooltip-when-elided="true" name="LabelTitle" class="LabelTitle" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaBody" style="height: 80%; background-color: rgb(249, 231, 210);">
+        <ui:VisualElement name="SectionInfotext" style="height: 6%;" />
+        <ui:VisualElement name="SectionTutorial1" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text=" Tutorial I" display-tooltip-when-elided="true" name="ButtonStartTutorial1" class="ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionTutorial2" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Tutorial II" display-tooltip-when-elided="true" name="ButtonStartTutorial2" class="ButtonLobby2 ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionTutorial3" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Tutorial III" display-tooltip-when-elided="true" name="ButtonStartTutorial3" class="ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionInfotext" style="height: 4%;" />
+        <ui:VisualElement name="SectionBack" style="height: 18%; flex-direction: column; flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Back" display-tooltip-when-elided="true" name="ButtonBack" class="ButtonLobby" style="width: 50%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionInfotext" style="height: 4%;" />
+    </ui:VisualElement>
+</ui:UXML>

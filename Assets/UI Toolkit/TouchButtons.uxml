@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="PlaySection" style="width: 68%; display: flex; visibility: hidden; overflow: hidden;" />
+        <ui:VisualElement name="ButtonSectionRight" style="width: 32%; flex-direction: column-reverse; align-items: stretch;">
+            <ui:VisualElement name="ButtonsSectionBelow" style="align-items: center; justify-content: flex-end;">
+                <ui:Button text="Rotate" display-tooltip-when-elided="true" name="RotateButton" class="Button" style="margin-bottom: 20px; padding-bottom: 1%; display: flex;" />
+                <ui:Button text="Lift" display-tooltip-when-elided="true" name="LiftButton" class="Button" style="display: flex;" />
+                <ui:Button text="Interact" display-tooltip-when-elided="true" name="InteractionButton" class="Button" style="margin-bottom: 20px; padding-bottom: 1%; display: none;" />
+                <ui:Button text="Pickup" display-tooltip-when-elided="true" name="PickupButton" class="Button" style="display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ButtonsSectionUp" style="flex-grow: 1; align-items: center;">
+                <ui:Button text="Help" display-tooltip-when-elided="true" name="HelpButton" class="Button" style="margin-top: 20px;" />
+                <ui:Button text="Produce" display-tooltip-when-elided="true" name="PlaymodeButton" class="Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

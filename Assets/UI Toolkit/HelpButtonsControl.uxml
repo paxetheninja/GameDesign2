@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="AreaHeadline" class="Background30" style="height: 15%; flex-direction: row;">
+        <ui:VisualElement name="AreaLeft" style="width: 40%; padding-left: 30px; align-items: center; justify-content: flex-start; flex-direction: row;">
+            <ui:Button text="Enable Touch" display-tooltip-when-elided="true" name="ButtonEnableTouch" class="HelpButton" style="display: flex;" />
+            <ui:Button text="Disable Touch" display-tooltip-when-elided="true" name="ButtonDisableTouch" class="HelpButton" style="display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaCenter" style="width: 33%; justify-content: space-around; flex-basis: 20%;">
+            <ui:Label text="Key bindings" display-tooltip-when-elided="true" name="LabelTitleRecipies" style="-unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/Fonts/SATYP___.TTF?fileID=12800000&amp;guid=16cc4b6235b524f42a491ca3db847f73&amp;type=3#SATYP___&apos;); -unity-font-definition: url(&apos;project://database/Assets/Fonts/SATYP___%20SDF%201.asset?fileID=11400000&amp;guid=ebe99ae6751f11f429f35eb6d052c5ef&amp;type=2#SATYP___ SDF 1&apos;); font-size: 100%; color: rgb(40, 48, 64); display: flex;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="AreaRight" style="width: 40%; align-items: center; justify-content: flex-start; padding-right: 30px; flex-direction: row-reverse;">
+            <ui:Button text="Back to Recipies" display-tooltip-when-elided="true" name="ButtonCloseHelp" class="HelpButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaKeyBindings" style="height: 85%; flex-direction: row; background-color: rgb(40, 48, 64); display: flex;">
+        <ui:VisualElement name="SectionHighscore" style="width: 100%;">
+            <ui:Label display-tooltip-when-elided="true" name="LabelHighscoreTitle" class="LabelCredits" style="width: 100%;" />
+            <ui:VisualElement style="flex-direction: row; width: 100%;">
+                <ui:Label text="WASD&#10;Arrow Keys&#10;E&#10;F&#10;P&#10;Q&#10;F1" display-tooltip-when-elided="true" name="LabelHighscoreNames" class="LabelCredits" style="-unity-text-align: upper-right; width: 30%;" />
+                <ui:Label text="Player Movement&#10;Player Movement&#10;Lift and put Items, workstations&#10;Interact with working stations, customers&#10;Switch between building and arranging phase&#10;Rotate liftet workstations&#10;Help &amp; Menu to exit" display-tooltip-when-elided="true" name="LabelHighscorePoints" class="LabelCredits" style="-unity-text-align: upper-left; width: 50%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

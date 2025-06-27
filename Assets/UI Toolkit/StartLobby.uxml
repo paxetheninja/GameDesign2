@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Amphoras.uss?fileID=7433441132597879392&amp;guid=cf861d48400aa9848b36f1f5d6fda619&amp;type=3#Amphoras" />
+    <ui:VisualElement name="AreaTitle" style="height: 20%; background-color: rgb(40, 48, 64);">
+        <ui:Label text="kerameikos" display-tooltip-when-elided="true" name="LabelTitle" class="LabelTitle" />
+    </ui:VisualElement>
+    <ui:VisualElement name="AreaBody" style="height: 80%; background-color: rgb(249, 231, 210);">
+        <ui:VisualElement />
+        <ui:VisualElement name="SectionPlayerName" style="height: 20%; align-items: stretch; flex-direction: row;">
+            <ui:VisualElement style="width: 30%; flex-direction: row; align-items: center;">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="LabelPlayerNameText" class="TextFieldPlayerName" style="width: 47.5%; margin-top: 10px; height: 100%; -unity-text-align: middle-right; font-size: 80px; margin-left: 0;" />
+                <ui:Label text=":" display-tooltip-when-elided="true" name="LabelPlayerNamePoints" class="TextFieldPlayerNameUserText" style="width: 5%; margin-top: 0; height: 100%; -unity-text-align: middle-right; margin-right: 0; margin-bottom: 10px;" />
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="LabelPlayerName" class="TextFieldPlayerNameUserText" style="width: 47.5%; margin-top: 0; height: 100%; -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 40%; height: 100%;">
+                <ui:TextField picking-mode="Ignore" label="lobby Id:" name="InputHostID" readonly="true" value="1" class="TextField" style="width: 100%; align-items: center; height: 100%; flex-direction: row;" />
+            </ui:VisualElement>
+            <ui:Label text="HostID: 433453" display-tooltip-when-elided="true" name="LabelHostID" class="TextFieldPlayerName" style="width: 33%; display: none;" />
+            <ui:VisualElement style="width: 30%; flex-direction: row; align-items: center; justify-content: space-around;">
+                <ui:Label text="Connected" display-tooltip-when-elided="true" name="LabelPlayersConnectedText" class="TextFieldPlayerName" style="width: 70%; margin-top: 10px; height: 100%; -unity-text-align: middle-right; font-size: 80px; margin-left: 0;" />
+                <ui:Label text=":" display-tooltip-when-elided="true" name="LabelPlayersConnectedPoints" class="TextFieldPlayerNameUserText" style="width: 5%; margin-top: 0; height: 100%; -unity-text-align: middle-center; margin-right: 0; margin-bottom: 10px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="LabelPlayersConnected" class="TextFieldPlayerNameUserText" style="width: 25%; margin-top: 0; height: 100%; -unity-text-align: middle-left;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionLevel" style="height: 60%; flex-direction: row; width: 99%; margin-left: 0.5%; margin-right: 0.5%; margin-top: 0.5%; margin-bottom: 0.5%;">
+            <ui:VisualElement name="SectionLeftColumn" style="width: 50%; height: 100%; align-items: center; justify-content: flex-start;">
+                <ui:Button text="Level I" display-tooltip-when-elided="true" name="ButtonLevel1" class="ButtonLevelSelected ButtonLevel" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SectionMiddleColumn" style="width: 50%; height: 100%; align-items: center; justify-content: flex-start;">
+                <ui:Button text="Level II" display-tooltip-when-elided="true" name="ButtonLevel2" class="ButtonLevel" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SectionRightColumn" style="width: 50%; height: 100%; align-items: center; justify-content: flex-start;">
+                <ui:Button text="Random" display-tooltip-when-elided="true" name="ButtonRandom" class="ButtonLevel" />
+                <ui:VisualElement name="SectionRandomSettings" style="height: 52%; width: 100%; align-items: center; display: none;">
+                    <ui:VisualElement style="flex-direction: row; height: 50%; width: 100%;">
+                        <ui:VisualElement style="width: 50%; align-items: flex-end;">
+                            <ui:Button text="Easy" display-tooltip-when-elided="true" name="ButtonEasy" class="ButtonLevelSelected ButtonLevel" style="height: 100%; width: 88%;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="width: 50%; align-items: flex-start;">
+                            <ui:Button text="Hard" display-tooltip-when-elided="true" name="ButtonHard" class="ButtonLevel" style="height: 100%; width: 88%;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:TextField picking-mode="Ignore" label="SEED:" value="24352" text="234253" name="InputSeed" class="TextField InputSeed" style="padding-top: 2%; width: 90%; height: 50%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SectionStartButtons" style="height: 20%; flex-direction: row;">
+            <ui:VisualElement style="width: 33%; align-items: center;">
+                <ui:Button text="Leave Lobby" display-tooltip-when-elided="true" name="ButtonLeaveLobby" class="ButtonLobby" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%; align-items: center;">
+                <ui:Button text="Start Game" display-tooltip-when-elided="true" name="ButtonStartGame" class="ButtonLobby" />
+            </ui:VisualElement>
+            <ui:VisualElement style="width: 33%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

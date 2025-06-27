@@ -1,0 +1,3 @@
+﻿gridPickup/Place: https://pixabay.com/sound-effects/clickclack-6312/
+gridRotate: https://pixabay.com/sound-effects/whoosh-6316/
+doorOpen: https://pixabay.com/de/sound-effects/main-door-opening-closing-38280/

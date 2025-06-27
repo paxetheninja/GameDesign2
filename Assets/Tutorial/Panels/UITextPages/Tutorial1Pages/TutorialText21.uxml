@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+            <ui:Template name="Template3" src="project://database/Assets/Tutorial/Template3.uxml?fileID=9197481963319205126&amp;guid=6a6f675500c220e4b8dafcb38b7165c8&amp;type=3#Template3"  />
+    <ui:Instance template="Template3" name="Template3" style="overflow: visible; position: relative; height: 100%; width: 100%;" >
+        <AttributeOverrides element-name="TutorialText" text="Great!&#10;&#10;The finals step in every pottering process is to burn your pottery. This will give it a nice glaze and protect it from crumbeling. To achive this put your plate into the oven I just placed for you." />
+      </ui:Instance>
+</ui:UXML>

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1880845595641550086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880845595641550137}
+  - component: {fileID: 1880845595641550136}
+  - component: {fileID: 1880845595641550087}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1880845595641550137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880845595641550086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.222718, y: -20.67417, z: 58.638397}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1880845595641550136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880845595641550086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c1a08cbdf74bd88c18d0e6c0e6d913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingBar: {fileID: 0}
+  playerCount: 0
+  numRooms: 0
+  difficulty: 0
+  floorRoomPrefab: {fileID: 557067778696639295, guid: e3ce4eb884fa0d9459899f117251ca27,
+    type: 3}
+  floorServiceRoomPrefab: {fileID: 557067778696639295, guid: d37d38cbd99dfab4b9274476381dc198,
+    type: 3}
+  floorGroundPrefab: {fileID: 557067778696639295, guid: 9ea510b57c2307244b915aa0123162c6,
+    type: 3}
+  wallTile: {fileID: 984713332230716768, guid: a689a5865a36bd04c9d0c8bde230b88c, type: 3}
+  topLevel: {fileID: 0}
+  grid: {fileID: 3138118158580905335, guid: 3e4c60becc4837f4caa3d88956b2ab14, type: 3}
+  workbenchWell: {fileID: 4173413809232764541, guid: 0d354cdeaee5f1a4687e5bb946d5c07b,
+    type: 3}
+  workbenchClayPit: {fileID: 5432568647973800578, guid: 4ce30c23efabd484b8107597e9c99931,
+    type: 3}
+  workbenchTable: {fileID: 8314863594733885801, guid: 955d3ffe7b78bff46b9e31b7fc3262f5,
+    type: 3}
+  workbenchTrashcan: {fileID: 5323355755064172553, guid: 270368da523e5b040b86b121b3430bd0,
+    type: 3}
+  workbenchPottersWheel: {fileID: 8711858770451898919, guid: ff92d540437078540a78e78a55716748,
+    type: 3}
+  workbenchOven: {fileID: 703239233647654152, guid: 6dbf00be16797c343b2f453bc61269df,
+    type: 3}
+  workbenchBlackRocks: {fileID: 5432568647973800578, guid: 5b91eda81b3ef894095912bc1386b428,
+    type: 3}
+  workbenchRedRocks: {fileID: 5432568647973800578, guid: 56b5c6b1ecee53441a4a98e072dbb8da,
+    type: 3}
+  workbenchGrindingTable: {fileID: 8711858770451898919, guid: c36c3a1c24dce18439256b5b50108d1f,
+    type: 3}
+  workbenchPaintersTable: {fileID: 8711858770451898919, guid: 53b410deaa7b75e428ae6dd8ce8b3d92,
+    type: 3}
+  door: {fileID: 8886692748976314222, guid: 669d06d43fd001d49a318e55e8db504d, type: 3}
+  playersSpawns: []
+--- !u!114 &1880845595641550087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880845595641550086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

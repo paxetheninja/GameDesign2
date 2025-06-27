@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Template3" src="project://database/Assets/Tutorial/Template3.uxml?fileID=9197481963319205126&amp;guid=6a6f675500c220e4b8dafcb38b7165c8&amp;type=3#Template3"  />
+    <ui:Instance template="Template3" name="Template3" style="overflow: visible; position: relative; height: 100%; width: 100%;" >
+        <AttributeOverrides element-name="TutorialText" text="Well done. You now mastered the creation of medium vases and also leaned how to make handles. If you forget the recipes you can find them under Help/Esc. Press Pickup/E to return back to the main menu." />
+      </ui:Instance>
+</ui:UXML>
